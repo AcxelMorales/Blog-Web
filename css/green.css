@@ -1,0 +1,11 @@
+:root {
+    --green: #235e3d;
+}
+
+#logo {
+    background: var(--green);
+}
+
+.btn {
+    background: var(--green);
+}

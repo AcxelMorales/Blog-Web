@@ -1,0 +1,11 @@
+:root {
+    --red: #ca3413;
+}
+
+#logo {
+    background: var(--red);
+}
+
+.btn {
+    background: var(--red);
+}

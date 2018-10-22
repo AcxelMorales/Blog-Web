@@ -1,0 +1,11 @@
+:root {
+    --blue: #1f87c4;
+}
+
+#logo {
+    background: var(--blue);
+}
+
+.btn {
+    background: var(--blue);
+}

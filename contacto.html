@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto WEB</title>
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/green.css" id="theme">
+</head>
+
+<body>
+    <div id="cambia">
+        <div id="green"></div>
+        <div id="red"></div>
+        <div id="blue"></div>
+    </div>
+    <section id="global">
+        <!-- Header -->
+        <header>
+            <div id="logo">
+                <h1>Proyecto JS</h1>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="about.html">Sobre mi</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Contenido -->
+        <section id="content">
+            <div id="box">
+                <!-- Formulario -->
+                <h2>Contacto</h2>
+                <form action="" method="" enctype="application/x-www-form-urlencoded" class="frm">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" data-validation="alphanumeric">
+
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos" id="apellidos" data-validation="alphanumeric">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" data-validation="email">
+
+                    <label for="sexo">Sexo</label>
+                    <select name="sex" id="sex" required>
+                        <option value="men">Hombre</option>
+                        <option value="woman">Mujer</option>
+                    </select>
+
+                    <label for="date">Fecha de nacimiento</label>
+                    <input type="date" name="date" id="date" data-validation="date" data-validation-format="yyyy-mm-dd">
+
+                    <label for="years">Edad</label>
+                    <input type="number" name="years" id="years" data-validation="number">
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <aside id="sidebar">
+                <div id="about">
+                    <h3>¿Quien soy?</h3>
+                    <img src="img/caracol.jpg" alt="img">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae earum magnam dolor quas provident
+                        atque quasi laboriosam. Asperiores nulla molestiae beatae labore quis dicta voluptatum iure,
+                        sit eos blanditiis ab corporis suscipit alias? Voluptatibus, facilis. Quod dolor quidem ad
+                        autem.</p>
+                </div>
+                <div id="login">
+                    <h3>Identificate</h3>
+                    <form action="">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name">
+                        <label for="mail">Correo</label>
+                        <input type="email" id="mail">
+                        <label for="pass">Contraseña</label>
+                        <input type="password" id="pass">
+                        <input type="submit" value="Entrar" class="frm">
+                    </form>
+                </div>
+            </aside>
+        </section>
+    </section>
+    <!-- Footer -->
+    <footer>
+        Master en JavaScript &copy;
+        <div class="ir">
+            <a href="#" class="subir"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Validator -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <!-- Script -->
+    <script src="js/contacto.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
